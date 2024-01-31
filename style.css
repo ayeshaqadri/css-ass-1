@@ -1,0 +1,24 @@
+
+@font-face {
+    font-family:roboto;
+    src: url(./image/Roboto-Black.ttf);}
+
+
+#h{
+    color: rgb(243, 243, 243);
+    font-family: roboto;
+}
+#c{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+   font-size: 500%;
+
+    }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;}
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;}
